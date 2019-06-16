@@ -12,9 +12,17 @@
 * cd aws-sdk_cloudwatch
 * npm install
 * configure your aws profile in AWS.config global object(this sample automatically takes the credentials from the local path. If you dont do it, this app will not work as expected )
+awscloucreate
 
+| javaScript | Description |
+| ------ | ------ |
+| awscloucreate | puts the resource in aws and get the details|
+| alarmactionsincloudWatch | enables the Alarm |
 
 | function | Description |
 | ------ | ------ |
 | putResource | puts the resource in aws |
 | describeAlarmDetails | get the details from the above function |
+
+* index.html is underconstruction.
+* to test the above functions, execute it via node command
